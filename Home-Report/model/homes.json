@@ -1,0 +1,584 @@
+{
+    "home": [{
+        "city": "Boulder",
+        "price": 289000,
+        "bed": 1,
+        "bath": 1,
+        "sqft": 821,
+        "image": "289000.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "unitsPerBuilding": 4,
+        "saleHistory": [
+            {
+                "soldPrice": 202500,
+                "soldDate": "2005-12-27"
+            },
+            {
+                "soldPrice": 189500,
+                "soldDate": "1998-03-07"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 1698000,
+        "bed": 5,
+        "bath": 4,
+        "sqft": 6544,
+        "image": "1698000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 12300,
+        "saleHistory": [
+            {
+                "soldPrice": 1022500,
+                "soldDate": "2004-11-07"
+            },
+            {
+                "soldPrice": 889500,
+                "soldDate": "1996-02-05"
+            },
+            {
+                "soldPrice": 700500,
+                "soldDate": "1994-06-25"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 900000,
+        "bed": 5,
+        "bath": 3,
+        "sqft": 3978,
+        "image": "900000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 9380,
+        "saleHistory": [
+            {
+                "soldPrice": 822500,
+                "soldDate": "2006-12-07"
+            },
+            {
+                "soldPrice": 789500,
+                "soldDate": "1999-05-09"
+            },
+            {
+                "soldPrice": 600500,
+                "soldDate": "1997-05-23"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 889000,
+        "bed": 3,
+        "bath": 2,
+        "sqft": 3049,
+        "image": "889000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 8550,
+        "saleHistory": [
+            {
+                "soldPrice": 712500,
+                "soldDate": "2010-12-07"
+            },
+            {
+                "soldPrice": 689500,
+                "soldDate": "2007-07-09"
+            },
+            {
+                "soldPrice": 600500,
+                "soldDate": "2004-02-21"
+            },
+            {
+                "soldPrice": 500500,
+                "soldDate": "1994-06-07"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 575000,
+        "bed": 4,
+        "bath": 2,
+        "sqft": 1800,
+        "image": "575000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 6550,
+        "saleHistory": [
+            {
+                "soldPrice": 500500,
+                "soldDate": "2014-12-07"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 325000,
+        "bed": 2,
+        "bath": 1,
+        "sqft": 816,
+        "image": "325000.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "unitsPerBuilding": 8,
+        "saleHistory": [
+            {
+                "soldPrice": 312500,
+                "soldDate": "2010-12-07"
+            },
+            {
+                "soldPrice": 289500,
+                "soldDate": "2007-07-09"
+            },
+            {
+                "soldPrice": 200500,
+                "soldDate": "1994-02-21"
+            },
+            {
+                "soldPrice": 190500,
+                "soldDate": "1990-06-07"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 1290000,
+        "bed": 3,
+        "bath": 3,
+        "sqft": 2708,
+        "image": "1290000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 16550,
+        "saleHistory": [
+            {
+                "soldPrice": 712500,
+                "soldDate": "1990-12-07"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 189900,
+        "bed": 1,
+        "bath": 1,
+        "sqft": 571,
+        "image": "189900.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "unitsPerBuilding": 6,
+        "saleHistory": [
+            {
+                "soldPrice": 162500,
+                "soldDate": "2010-12-07"
+            },
+            {
+                "soldPrice": 149500,
+                "soldDate": "2007-07-09"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 295000,
+        "bed": 2,
+        "bath": 2,
+        "sqft": 881,
+        "image": "295000.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "unitsPerBuilding": 4,
+        "saleHistory": [
+            {
+                "soldPrice": 272500,
+                "soldDate": "2010-10-17"
+            },
+            {
+                "soldPrice": 270500,
+                "soldDate": "2009-03-09"
+            },
+            {
+                "soldPrice": 200500,
+                "soldDate": "2000-08-01"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 165000,
+        "bed": 1,
+        "bath": 1,
+        "sqft": 484,
+        "image": "165000.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "unitsPerBuilding": 8,
+        "saleHistory": [
+            {
+                "soldPrice": 155500,
+                "soldDate": "2014-02-17"
+            },
+            {
+                "soldPrice": 149500,
+                "soldDate": "2012-09-09"
+            },
+            {
+                "soldPrice": 140500,
+                "soldDate": "2004-12-21"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 813000,
+        "bed": 4,
+        "bath": 4,
+        "sqft": 4497,
+        "image": "813000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 11500,
+        "saleHistory": [
+            {
+                "soldPrice": 752500,
+                "soldDate": "2006-10-23"
+            },
+            {
+                "soldPrice": 689500,
+                "soldDate": "2002-03-19"
+            },
+            {
+                "soldPrice": 600500,
+                "soldDate": "1997-12-01"
+            },
+            {
+                "soldPrice": 500500,
+                "soldDate": "1990-06-27"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 1075000,
+        "bed": 5,
+        "bath": 3,
+        "sqft": 3784,
+        "image": "1075000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 9550,
+        "saleHistory": [
+            {
+                "soldPrice": 1012500,
+                "soldDate": "2015-10-08"
+            },
+            {
+                "soldPrice": 989500,
+                "soldDate": "2012-02-09"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 787500,
+        "bed": 4,
+        "bath": 3,
+        "sqft": 2587,
+        "image": "787500.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 7750,
+        "saleHistory": [
+            {
+                "soldPrice": 712500,
+                "soldDate": "2013-02-02"
+            },
+            {
+                "soldPrice": 689500,
+                "soldDate": "2007-07-09"
+            },
+            {
+                "soldPrice": 600500,
+                "soldDate": "2002-01-11"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 763000,
+        "bed": 5,
+        "bath": 2,
+        "sqft": 2080,
+        "image": "763000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 8250,
+        "saleHistory": [
+            {
+                "soldPrice": 712500,
+                "soldDate": "2013-12-07"
+            },
+            {
+                "soldPrice": 659500,
+                "soldDate": "2006-07-09"
+            },
+            {
+                "soldPrice": 600500,
+                "soldDate": "2003-12-20"
+            },
+            {
+                "soldPrice": 500500,
+                "soldDate": "1998-06-07"
+            },
+            {
+                "soldPrice": 490500,
+                "soldDate": "1995-06-17"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 880000,
+        "bed": 3,
+        "bath": 2,
+        "sqft": 3217,
+        "image": "880000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 11550,
+        "saleHistory": [
+            {
+                "soldPrice": 795500,
+                "soldDate": "2012-12-07"
+            },
+            {
+                "soldPrice": 659500,
+                "soldDate": "2000-04-19"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 247500,
+        "bed": 1,
+        "bath": 1,
+        "sqft": 483,
+        "image": "247500.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "unitsPerBuilding": 6,
+        "saleHistory": [
+            {
+                "soldPrice": 212500,
+                "soldDate": "2005-12-07"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 285000,
+        "bed": 2,
+        "bath": 1,
+        "sqft": 912,
+        "image": "285000.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "unitsPerBuilding": 4,
+        "saleHistory": [
+            {
+                "soldPrice": 212500,
+                "soldDate": "2013-11-07"
+            },
+            {
+                "soldPrice": 209500,
+                "soldDate": "2010-09-09"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 236200,
+        "bed": 2,
+        "bath": 2,
+        "sqft": 965,
+        "image": "236200.jpg",
+        "category": {
+            "homeType": "Condo"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "unitsPerBuilding": 6,
+        "saleHistory": [
+            {
+                "soldPrice": 222500,
+                "soldDate": "2014-10-07"
+            },
+            {
+                "soldPrice": 209500,
+                "soldDate": "2001-06-22"
+            },
+            {
+                "soldPrice": 200500,
+                "soldDate": "1998-12-24"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 430000,
+        "bed": 2,
+        "bath": 1,
+        "sqft": 1140,
+        "image": "430000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 6550,
+        "saleHistory": [
+            {
+                "soldPrice": 412500,
+                "soldDate": "2015-09-01"
+            },
+            {
+                "soldPrice": 359500,
+                "soldDate": "2006-08-19"
+            },
+            {
+                "soldPrice": 300500,
+                "soldDate": "2000-10-20"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 975000,
+        "bed": 4,
+        "bath": 3,
+        "sqft": 2812,
+        "image": "975000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": false
+        },
+        "lotSize": 10250,
+        "saleHistory": [
+            {
+                "soldPrice": 855500,
+                "soldDate": "2009-09-07"
+            },
+            {
+                "soldPrice": 659500,
+                "soldDate": "2006-02-05"
+            },
+            {
+                "soldPrice": 550500,
+                "soldDate": "1998-08-05"
+            }
+        ]
+    }, {
+        "city": "Boulder",
+        "price": 1660000,
+        "bed": 6,
+        "bath": 6,
+        "sqft": 6334,
+        "image": "1660000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 8950,
+        "saleHistory": [
+            {
+                "soldPrice": 1512500,
+                "soldDate": "2013-02-07"
+            },
+            {
+                "soldPrice": 1259500,
+                "soldDate": "2000-11-19"
+            }
+        ]
+    }, {
+        "city": "Louisville",
+        "price": 965000,
+        "bed": 5,
+        "bath": 4,
+        "sqft": 4989,
+        "image": "965000.jpg",
+        "category": {
+            "homeType": "Single Family"
+        },
+        "status": {
+            "isForSale": true
+        },
+        "lotSize": 7650,
+        "saleHistory": [
+            {
+                "soldPrice": 712500,
+                "soldDate": "2002-11-27"
+            }
+        ]
+    }]
+}
+
