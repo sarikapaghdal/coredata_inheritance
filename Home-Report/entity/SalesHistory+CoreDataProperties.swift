@@ -2,8 +2,8 @@
 //  SalesHistory+CoreDataProperties.swift
 //  Home-Report
 //
-//  Created by Dhaval s on 22/01/19.
-//  Copyright © 2019 Dhaval s. All rights reserved.
+//  Created by Sarika on 22/01/19.
+//  Copyright © 2019 Sarika. All rights reserved.
 //
 //
 
