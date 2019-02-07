@@ -15,7 +15,6 @@ class HomeListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
     
-    
     // MARK: Properties
     weak var managedObjectContext: NSManagedObjectContext! {
         didSet {
@@ -25,7 +24,7 @@ class HomeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     private lazy var homes = [Home]()
     private var selectedHome: Home?
-    private var home: Home? = nil
+    private var home: Home?
     private var isForSale: Bool = true
     private var sortDescriptor = [NSSortDescriptor]()
     private var searchPredicate: NSPredicate?
@@ -38,19 +37,19 @@ class HomeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        loadData()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    
     // MARK: Segmented control
     @IBAction func segmentedAction(_ sender: UISegmentedControl) {
         let selectedValue = sender.titleForSegment(at: sender.selectedSegmentIndex)
         isForSale = selectedValue == "For Sale" ? true : false
+        loadData()
     }
-    
     
     // MARK: TableView datasource
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -70,7 +69,6 @@ class HomeListViewController: UIViewController, UITableViewDataSource, UITableVi
         return cell
     }
     
-    
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -78,13 +76,44 @@ class HomeListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         switch identifier {
         case "segueHistory":
-            break
             
+            let destination = segue.destination as! SaleHistoryViewController
+            
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                let selectedHome = homes[selectedIndexPath.row]
+                destination.home = selectedHome
+                destination.managedObjectContext = managedObjectContext
+            }
         case "segueToFilter":
-            break
+            sortDescriptor = []
+            searchPredicate = nil
+            let destination = segue.destination as! FilterTableViewController
+            destination.delegate = self
             
         default:
             break
         }
     }
+    
+    private func loadData() {
+        if let arrHomes = home?.gethomeByStatus(isForSale: isForSale, filter: searchPredicate, sort: sortDescriptor, context: managedObjectContext){
+            homes = arrHomes
+            tableView.reloadData()
+        }
+    }
+}
+
+extension HomeListViewController : FilterTableViewControllerDelegate {
+    //user will select either predicate or sortby so they are optionals
+    func updateHomeList(filterby: NSPredicate?, sortby: NSSortDescriptor?) {
+        if let filter = filterby {
+            searchPredicate = filter
+        }
+        
+        if let sort = sortby {
+            sortDescriptor.append(sort)
+        }
+    }
+    
+    
 }

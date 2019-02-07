@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB3D388721F9C528003F176E /* Home+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D388621F9C528003F176E /* Home+Extension.swift */; };
 		FB40AC9321F61BA800A60B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40AC9221F61BA800A60B71 /* AppDelegate.swift */; };
 		FB40AC9521F61BA800A60B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB40AC9421F61BA800A60B71 /* ViewController.swift */; };
 		FB40AC9B21F61BA800A60B71 /* Home_Report.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB40AC9921F61BA800A60B71 /* Home_Report.xcdatamodeld */; };
@@ -54,9 +55,11 @@
 		FB4945D421F72AD300A01993 /* SingleFamily+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4945CC21F72AD300A01993 /* SingleFamily+CoreDataProperties.swift */; };
 		FB4945D521F72AD300A01993 /* Condo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4945CD21F72AD300A01993 /* Condo+CoreDataClass.swift */; };
 		FB4945D621F72AD300A01993 /* Condo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4945CE21F72AD300A01993 /* Condo+CoreDataProperties.swift */; };
+		FB92BFE621FCE49200248A5E /* SalesHistory+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB92BFE521FCE49200248A5E /* SalesHistory+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB3D388621F9C528003F176E /* Home+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+Extension.swift"; sourceTree = "<group>"; };
 		FB40AC8F21F61BA800A60B71 /* Home-Report.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home-Report.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB40AC9221F61BA800A60B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB40AC9421F61BA800A60B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 		FB4945CC21F72AD300A01993 /* SingleFamily+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingleFamily+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FB4945CD21F72AD300A01993 /* Condo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Condo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FB4945CE21F72AD300A01993 /* Condo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Condo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FB92BFE521FCE49200248A5E /* SalesHistory+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SalesHistory+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB3D388821F9C555003F176E /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D388621F9C528003F176E /* Home+Extension.swift */,
+				FB92BFE521FCE49200248A5E /* SalesHistory+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		FB40AC8621F61BA800A60B71 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +215,7 @@
 		FB40ACE721F61FF600A60B71 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				FB3D388821F9C555003F176E /* extension */,
 				FB40ACA721F61BD600A60B71 /* homes.json */,
 				FB40AC9921F61BA800A60B71 /* Home_Report.xcdatamodeld */,
 			);
@@ -335,6 +349,7 @@
 				FB4945D121F72AD300A01993 /* Home+CoreDataClass.swift in Sources */,
 				FB4945D421F72AD300A01993 /* SingleFamily+CoreDataProperties.swift in Sources */,
 				FB4945D621F72AD300A01993 /* Condo+CoreDataProperties.swift in Sources */,
+				FB92BFE621FCE49200248A5E /* SalesHistory+Extension.swift in Sources */,
 				FB40ACED21F6216800A60B71 /* Double+Extension.swift in Sources */,
 				FB40ACEB21F6215200A60B71 /* Date+Extension.swift in Sources */,
 				FB40ACE921F6207A00A60B71 /* CoreDataStack.swift in Sources */,
@@ -348,6 +363,7 @@
 				FB4945D321F72AD300A01993 /* SingleFamily+CoreDataClass.swift in Sources */,
 				FB40AC9321F61BA800A60B71 /* AppDelegate.swift in Sources */,
 				FB4945D221F72AD300A01993 /* Home+CoreDataProperties.swift in Sources */,
+				FB3D388721F9C528003F176E /* Home+Extension.swift in Sources */,
 				FB4945D021F72AD300A01993 /* SalesHistory+CoreDataProperties.swift in Sources */,
 				FB4945C021F718A400A01993 /* HomeListViewController.swift in Sources */,
 				FB4945BA21F7188900A01993 /* SaleHistoryTableViewCell.swift in Sources */,

@@ -219,7 +219,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NpY-sh-vTM">
-                                <rect key="frame" x="20" y="318.5" width="335" height="299.5"/>
+                                <rect key="frame" x="20" y="398.5" width="335" height="219.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyCell" textLabel="cLS-oe-TOJ" detailTextLabel="RBm-26-wDR" rowHeight="15" style="IBUITableViewCellStyleValue1" id="qe8-Uw-187" customClass="SaleHistoryTableViewCell" customModule="Home_Report" customModuleProvider="target">
@@ -246,8 +246,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="soldDateLabel" destination="cLS-oe-TOJ" id="ght-Gk-yQ1"/>
-                                            <outlet property="soldPriceLabel" destination="RBm-26-wDR" id="wUg-Hf-rbR"/>
+                                            <outlet property="soldDateLabel1" destination="cLS-oe-TOJ" id="sh1-Qa-FIF"/>
+                                            <outlet property="soldPriceLabel1" destination="RBm-26-wDR" id="qZO-YL-ndJ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -265,7 +265,7 @@
                             <constraint firstItem="4Rk-ul-mvP" firstAttribute="top" secondItem="ddW-6Y-81m" secondAttribute="bottom" constant="20" id="21o-7d-Axw"/>
                             <constraint firstItem="4Rk-ul-mvP" firstAttribute="centerX" secondItem="tY9-c6-fsr" secondAttribute="centerX" id="EgK-0w-4gx"/>
                             <constraint firstItem="4Rk-ul-mvP" firstAttribute="height" secondItem="tY9-c6-fsr" secondAttribute="height" multiplier="1:3" id="H7v-1L-y1P"/>
-                            <constraint firstItem="NpY-sh-vTM" firstAttribute="top" secondItem="4Rk-ul-mvP" secondAttribute="bottom" constant="-40" id="QKX-wz-OvM"/>
+                            <constraint firstItem="NpY-sh-vTM" firstAttribute="top" secondItem="4Rk-ul-mvP" secondAttribute="bottom" constant="40" id="QKX-wz-OvM"/>
                             <constraint firstItem="pfx-Gd-3kz" firstAttribute="top" secondItem="NpY-sh-vTM" secondAttribute="bottom" id="VBF-nS-8g8"/>
                             <constraint firstItem="NpY-sh-vTM" firstAttribute="leading" secondItem="tY9-c6-fsr" secondAttribute="leading" constant="20" id="b0n-St-hI2"/>
                             <constraint firstAttribute="trailing" secondItem="NpY-sh-vTM" secondAttribute="trailing" constant="20" id="d2K-BO-Yr8"/>
@@ -275,8 +275,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sale History" id="2O8-cQ-ApF"/>
                     <connections>
-                        <outlet property="imageView" destination="4Rk-ul-mvP" id="0lz-ea-IoF"/>
-                        <outlet property="tableView" destination="NpY-sh-vTM" id="xoM-jK-VkF"/>
+                        <outlet property="imageView" destination="4Rk-ul-mvP" id="klC-vk-JYU"/>
+                        <outlet property="tableView1" destination="NpY-sh-vTM" id="yhy-xh-z41"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lv5-U6-m2K" userLabel="First Responder" sceneMemberID="firstResponder"/>

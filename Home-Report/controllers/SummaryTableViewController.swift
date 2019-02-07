@@ -34,6 +34,16 @@ class SummaryTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let home = home { //for $ sign we use currencyFormatter
+            totalSalesDollarLabel.text = "\(home.totalSoldHomeValues(moc: managedObjectContext).currencyFormatter)"
+            numCondoSoldLabel.text = "\(home.totalSoldCondo(moc: managedObjectContext))"
+            numSFSoldLabel.text = "\(home.totalSoldFamily(moc: managedObjectContext))"
+            minPriceHomeLabel.text =  "\(home.soldPrice(priceType: "min", moc: managedObjectContext).currencyFormatter)"
+            maxPriceHomeLabel.text =  "\(home.soldPrice(priceType: "max", moc: managedObjectContext).currencyFormatter)"
+            avgPriceCondoLabel.text = "\(home.averagePrice(homeType: .Condo, moc: managedObjectContext))"
+            avgPriceSFLabel.text = "\(home.averagePrice(homeType: .SingleFamily, moc: managedObjectContext))"
+        }
     }
 
     override func didReceiveMemoryWarning() {
